@@ -23,9 +23,15 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("Control");
     }
 
-    public void ToBuilding()
+    public void ToBuilding1()
     {
-        Debug.Log("Building");
-        SceneManager.LoadScene("Building");
+        Debug.Log("Building1");
+        SceneManager.LoadScene("Building1");
+    }
+
+    public void ToBuilding2()
+    {
+        Debug.Log("Building2");
+        SceneManager.LoadScene("Building2");
     }
 }

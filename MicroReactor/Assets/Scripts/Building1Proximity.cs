@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
 
-public class BuildingProximity : MonoBehaviour
+public class Building1Proximity : MonoBehaviour
 {
     public GameManager gameManager;
 
     void OnTriggerEnter()
     {
-        gameManager.ToBuilding();
+        gameManager.ToBuilding1();
     }
 }
