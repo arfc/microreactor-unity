@@ -11,10 +11,22 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("Elevator");
     }
 
-    public void ExitBuilding ()
+    public void ExitBuilding1 ()
     {
-        Debug.Log("Outside");
-        SceneManager.LoadScene("Outside");
+        Debug.Log("OutsideA");
+        SceneManager.LoadScene("OutsideA");
+    }
+
+    public void ExitBuilding2()
+    {
+        Debug.Log("OutsideB");
+        SceneManager.LoadScene("OutsideB");
+    }
+
+    public void ExitBuilding3()
+    {
+        Debug.Log("OutsideC");
+        SceneManager.LoadScene("OutsideC");
     }
 
     public void ToControlRoom ()
@@ -33,5 +45,29 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("Building2");
         SceneManager.LoadScene("Building2");
+    }
+
+    public void ToControlPanel ()
+    {
+        Debug.Log("Panel");
+        SceneManager.LoadScene("Panel");
+    }
+
+    public void ToFloor1 ()
+    {
+        Debug.Log("Floor1");
+        SceneManager.LoadScene("Floor1");
+    }
+
+    public void ToFloor1B()
+    {
+        Debug.Log("Floor1B");
+        SceneManager.LoadScene("Floor1B");
+    }
+
+    public void ToQuit ()
+    {
+        Debug.Log("Quit");
+        SceneManager.LoadScene("Quit");
     }
 }

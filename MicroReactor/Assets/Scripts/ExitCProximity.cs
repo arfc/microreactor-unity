@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
 
-public class ExitProximity : MonoBehaviour
+public class ExitCProximity : MonoBehaviour
 {
     public GameManager gameManager;
 
     void OnTriggerEnter()
     {
-        gameManager.ExitBuilding1();
+        gameManager.ExitBuilding3();
     }
 }

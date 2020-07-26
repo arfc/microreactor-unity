@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
 
-public class ExitProximity : MonoBehaviour
+public class Door1Proximity : MonoBehaviour
 {
     public GameManager gameManager;
 
     void OnTriggerEnter()
     {
-        gameManager.ExitBuilding1();
+        gameManager.ToFloor1B();
     }
 }
+

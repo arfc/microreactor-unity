@@ -35,6 +35,7 @@ public class ElevatorOptions : MonoBehaviour
     public void GoToExit ()
     {
         Debug.Log("QUIT");
-        Application.Quit();
+        SceneManager.LoadScene("Quit");
+        //Application.Quit();
     }
 }
