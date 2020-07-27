@@ -4,5 +4,71 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 88bc4bc0522582641b06878db475e81b
+  - enabled: 1
+    path: Assets/Scenes/OutsideA.unity
+    guid: 8b6bbf293e32ba945829d093b11b6275
+  - enabled: 1
+    path: Assets/Scenes/OutsideB.unity
+    guid: 44223f114912892408350ade078d49af
+  - enabled: 1
+    path: Assets/Scenes/OutsideC.unity
+    guid: 5e322e59e6b5d804ca338ba48c74f2ba
+  - enabled: 1
+    path: Assets/Scenes/Floor1.unity
+    guid: 02ee64141c4a90a49a2432063b85fe51
+  - enabled: 1
+    path: Assets/Scenes/Floor1B.unity
+    guid: cbca40fb09d060e43b85ec25b950c93c
+  - enabled: 1
+    path: Assets/Scenes/Building1.unity
+    guid: e71f4ec4dbc072c468823c0df1526238
+  - enabled: 1
+    path: Assets/Scenes/Building2.unity
+    guid: e2191ec930c3b34498c83fff0004bacc
+  - enabled: 1
+    path: Assets/Scenes/Floor2.unity
+    guid: c4e7173e9789e8d4f95f00b2d3af5725
+  - enabled: 1
+    path: Assets/Scenes/Floor3.unity
+    guid: f72abfb71bf65834fa7163cd3faea449
+  - enabled: 1
+    path: Assets/Scenes/Elevator.unity
+    guid: 08ccffd3e7ce24a429e14e533b37dd8c
+  - enabled: 1
+    path: Assets/Scenes/Control.unity
+    guid: f68825cb2684c7c4885339cada072158
+  - enabled: 1
+    path: Assets/Scenes/Panel.unity
+    guid: 26bd43f7d515ec149888417dc3e68872
+  - enabled: 1
+    path: Assets/Scenes/Scram.unity
+    guid: c3eba8caf030fb54c9fc3edd901c5ee4
+  - enabled: 1
+    path: Assets/Scenes/CRHeight.unity
+    guid: 0884ad074b0903c4ca5ef6cc514bbf49
+  - enabled: 1
+    path: Assets/Scenes/PumpSpeed.unity
+    guid: 420463d9578f11541938d80dc6d91d92
+  - enabled: 1
+    path: Assets/Scenes/Reactor.unity
+    guid: 0cea4c2811a70be45b5c789c3373584f
+  - enabled: 1
+    path: Assets/Scenes/Info1.unity
+    guid: 5ccd9526c5910d14d985d28ff72c094c
+  - enabled: 1
+    path: Assets/Scenes/Info2.unity
+    guid: abfadd6037ec870428947628fb4686ae
+  - enabled: 1
+    path: Assets/Scenes/Info3.unity
+    guid: 3679e4a428a3c074e9191740de5563a4
+  - enabled: 1
+    path: Assets/Scenes/Info4.unity
+    guid: 39466ed948bf19b41b6724ba03b23bfb
+  - enabled: 1
+    path: Assets/Scenes/Quit.unity
+    guid: 1f9614a7ccf0041419d61f492d73abcf
   m_configObjects: {}

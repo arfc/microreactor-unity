@@ -67,7 +67,19 @@ public class GameManager : MonoBehaviour
 
     public void ToQuit ()
     {
-        Debug.Log("Quit");
+        Debug.Log("ExitMenu");
         SceneManager.LoadScene("Quit");
+    }
+
+    public void ToInfo1()
+    {
+        Debug.Log("Info1");
+        SceneManager.LoadScene("Info1");
+    }
+
+    public void ToInfo2()
+    {
+        Debug.Log("Info2");
+        SceneManager.LoadScene("Info2");
     }
 }
